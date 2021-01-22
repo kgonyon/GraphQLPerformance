@@ -1,0 +1,22 @@
+type Query {
+  fast: [FastResult]
+  fastField: [FastResultFieldResolver]
+  fastAsync: [FastResult]
+  fastFieldAsync: [FastResultFieldResolver]
+  slow: [SlowResult]
+}
+
+type FastResult {
+  id: ID!
+  name: String!
+}
+
+type FastResultFieldResolver {
+  id: ID!
+  name: String!
+}
+
+type SlowResult {
+  id: ID!
+  name: String!
+}

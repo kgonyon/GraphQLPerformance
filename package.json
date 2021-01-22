@@ -1,0 +1,15 @@
+{
+  "name": "graphql-performance",
+  "dependencies": {
+    "fastify": "^3.10.1",
+    "graphql": "^15.4.0",
+    "graphql-helix": "^1.2.3",
+    "graphql-tools": "^7.0.2"
+  },
+  "scripts": {
+    "start": "node-dev index.js"
+  },
+  "devDependencies": {
+    "node-dev": "^6.2.0"
+  }
+}
